@@ -1,0 +1,13 @@
+{
+    "name": "Push-Notifications",
+    "short_name": "Push-Notifications",
+    "icons": [{
+        "src": "push-icon.png",
+        "sizes": "111x111",
+        "type": "image/png"
+    }],
+    "gcm_user_visible_only": true,
+    "display": "standalone",
+    "gcm_sender_id": "103953800507",
+    "gcm_user_visible_only": true
+}

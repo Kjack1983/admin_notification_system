@@ -1,0 +1,38 @@
+{
+	"apps": [
+		{
+			"name": "notifications-1",
+			"script": "./server.js",
+			"node_args": "--max_old_space_size=3072",
+			"exec_mode": "fork_mode",
+			"log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+			"env": {
+				"PORT": 3333,
+				"NODE_ENV": "development"
+			},
+			"watch_options": {
+				"ignored": [
+					"node_modules/*",
+					"log/*"
+				]
+			}
+		},
+		{
+			"name": "notifications-2",
+			"script": "./server.js",
+			"node_args": "--max_old_space_size=3072",
+			"exec_mode": "fork_mode",
+			"log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+			"env": {
+				"PORT": 3334,
+				"NODE_ENV": "development"
+			},
+			"watch_options": {
+				"ignored": [
+					"node_modules/*",
+					"log/*"
+				]
+			}
+		}
+	]
+}

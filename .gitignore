@@ -1,0 +1,12 @@
+node_modules/
+/node_modules
+log/*
+tmp/
+newrelic_agent.log
+.env
+build
+nodemon.json
+users.json
+client-service-account.json
+admin-service-account.json
+*.log

@@ -1,0 +1,91 @@
+.dashboard.login-reminder{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+
+}
+.dashboard.login-reminder .container{
+	padding: 0;
+	margin: 0;
+}
+
+.dashboard.login-reminder .reminder-to-login .dashboard-items .select-container{
+	float: left;
+}
+
+.reminder-to-login .btn-group{
+	margin: 0 30px 0 0; 
+    padding: 0;
+}
+
+.dashboard .reminder-to-login .message-text-input{
+	height: 280px;
+	display: block;
+}
+
+.dashboard .reminder-to-login-button-holder .btn{
+	text-transform: uppercase;
+	width: 100px;
+}
+
+/* The switch - the box around the slider */
+.reminder-toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+
+}
+
+.reminder-toggle-text { display: block; margin-bottom: 14px; }
+/* Hide default HTML checkbox */
+.reminder-toggle-switch input {display:none;}
+
+/* The slider */
+.dashboard .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: darkgray;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.dashboard .slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.dashboard input:checked + .slider {
+  background-color: #8dc74b;
+}
+
+.dashboard input:focus + .slider {
+  box-shadow: 0 0 1px darkgray;
+}
+
+.dashboard input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.dashboard .slider.round {
+  border-radius: 34px;
+}
+
+.dashboard .slider.round:before {
+  border-radius: 50%;
+}
+

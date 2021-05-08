@@ -1,0 +1,116 @@
+
+.header.panel-active{ padding: 0 10px; }
+
+.panel-menu .panel-row{
+	height: 50px;
+	border-bottom: solid 1px #282d30;
+	overflow: hidden;
+	padding: 0;
+	cursor: pointer;
+	box-sizing: border-box;
+
+}
+.panel-menu .panel-row:first-child{ border-top: solid 1px #282d30;}
+
+.panel-menu .panel-data{ float: left;}
+.panel-menu .panel-row .panel-marker{
+	background: #33393d;
+	width: 6px;
+	height: 100%;
+	margin-right: 10px;
+}
+.panel-menu .panel-row.active{ color: #8dc74b;}
+.panel-menu .panel-row.active .panel-marker{background: #8dc74b;}
+
+.panel-menu .panel-icon{
+	width: 40px;
+	height: 50px;
+	text-align: ceneter;
+	font-size: 16px;
+	line-height: 50px;
+}
+
+.panel-menu .panel-text{
+	height: 50px;
+	width: 180px;
+	line-height: 47px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.panel-active .logo-container{
+	margin: 0;
+	padding-top: 30px;
+	height: 90px;
+}
+
+/* Dashboard styles */
+.dashboard{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+
+.dashboard .container{
+	padding: 0;
+	margin: 0;
+}
+
+.dash-row{ padding: 0 5px;} 
+
+.dashboard .dashboard-items{
+	background: #DCD9D9;
+	color: #282d30;
+	margin-bottom: 10px;
+	padding: 0 10px 10px 10px;
+}
+
+.dashboard .dashboard-items .dash-title{
+	padding: 5px 0 10px 0;
+	margin: 0;
+	text-transform: uppercase;
+
+
+}
+
+.dashboard .supported-users-title{
+	display: inline-block;
+}
+.dashboard .supported-users-title.devices-title{
+	margin-left: 79px;
+}
+.dashboard .dashboard-title{ padding: 0;}
+.dashboard .dashboard-title h2{
+	font-weight: 400;
+	font-size: 28px;
+	text-transform: uppercase;
+	margin: 10px 0 30px 5px;
+}
+
+@media only screen and (min-width : 480px) {
+	.dashboard .container { width: 270px;}
+}
+
+@media only screen and (min-width : 768px) {
+	.dashboard .container {width: 520px;}
+}
+@media only screen and (min-width : 968px) {
+	.dashboard .container { width: 720px;}
+}
+
+@media only screen and (min-width : 1068px) {
+	.dashboard .container { width: 800px;}
+}
+
+@media only screen and (min-width : 1168px) {
+	.dashboard .container { width: 870px;}
+}
+
+
+@media only screen and (min-width : 1268px) {
+	.dashboard .container { width: 980px;}
+}
+
+@media only screen and (min-width : 1468px) {
+	.dashboard .container { width: 1020px;}
+}

@@ -1,0 +1,176 @@
+
+.dashboard h2{
+	font-weight: 400;
+	font-size: 28px;
+	text-transform: uppercase;
+	margin: 10px 0 30px 5px;
+}
+
+.dash-row{
+	padding: 0 5px;
+}
+
+.dashboard-items{
+	background: #DCD9D9;
+	color: #282d30;
+	margin-bottom: 10px;
+	padding: 0 10px 10px 10px;
+
+}
+.dashboard-header{
+	padding: 0;
+}
+.dashboard-items .dash-title{
+	padding: 5px 0 10px 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 500;
+
+}
+
+.dashboard-items .btn{
+	border-radius: 0;
+	box-shadow: none;
+	text-shadow: none;
+	background-image: none;
+	background: none;
+	margin-right: 2px;
+	background-color: #0f5b8e;
+	color: #f2f2f2;
+	border: none;
+}
+.dashboard-items .btn:active{
+	background-color: #0f5b8e;
+	color: #f2f2f2;
+	border: none;
+}
+.dashboard-items .btn-group.open .dropdown-toggle{
+	background-color: #0f5b8e;
+	color: #f2f2f2;
+	border: none;
+	box-shadow: none;
+}
+.dashboard-items .btn:hover{
+	background-color: #0f5b8e;
+	color: #f2f2f2;
+	border: none;
+	outline: 0 !important;
+}
+
+.dashboard-items .btn:visited{
+	background-color: #0f5b8e;
+	color: #f2f2f2;
+	border: none;
+	outline: 0 !important;
+}
+.clearBoth { clear:both; }
+.dashboard-items .btn:active{
+	background-color: #0f5b8e;
+	color: #f2f2f2;
+}
+.btn.dropdown-toggle.btn-default:focus {
+   outline: 0 !important; 
+   outline: none;
+   outline-offset:0; 
+}
+.dashboard.messages .user-groups .dashboard-items .select-container{
+	float: left;
+}
+
+/* Select users options styling */
+.dashboard .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+	width: 170px;
+}
+
+
+/* Message Input Tabs */
+
+#message-input-tabs .tab-content{
+	
+}
+
+#message-input-tabs h3 {
+	padding : 5px 15px;
+}
+
+#message-input-tabs .nav-pills > li > a {
+  border-radius: 0;
+  color: #68767d;
+}
+
+#message-input-tabs .tab-content {
+	
+}
+
+#message-input-tabs .nav-pills>li.active>a{
+	background-color: #DCD9D9;
+	border-top: solid 4px #0f5b8e;
+	border-bottom: solid 4px #DCD9D9;
+	color: #282d30;
+}
+#message-input-tabs .nav-pills>li>a{
+	background-color: #DCD9D9;
+	border-top: solid 4px darkgray;
+	border-bottom: solid 4px darkgray;
+	font-weight: 500;
+}
+#message-input-tabs .nav-pills>li>a .fa{
+	margin-right: 5px;
+}
+
+
+#message-input-tabs .nav-pills>li.active>a .fa{
+	color: #0f5b8e;	
+}
+#message-input-tabs .nav-pills,
+#message-input-tabs .nav-pills>li>a{
+	background-color: darkgray;
+}
+
+#message-input-tabs .current-language{
+	margin-top: 10px;
+}
+#message-input-tabs .message-input {
+	padding: 0 5px;
+	margin-bottom: 0;
+}
+
+#message-input-tabs .message-input-left{
+	/* padding-right: 20px; */
+}
+
+#message-input-tabs .message-input-right{
+	/* padding-left: 20px; */
+}
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.dashboard-items .select-container {
+    	margin-bottom: 15px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+

@@ -1,0 +1,355 @@
+.content{
+	
+	color: #e2e2e2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	font-family: "Roboto", sans-serif;
+}
+
+.dashboard-content{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: #282d30;
+	transition: all 0.2s;
+	padding: 20px 20px 30px 290px;
+	overflow-x: none;
+	
+}
+
+.content.panel-active .dashboard-content{
+	color: #282d30;
+	background: #f2f2f2;
+}
+
+/* Login form */
+#login-form-holder{
+	transition: all 0.4s;
+	color: #e2e2e2;
+}
+#panel-content{
+	transition: all 0.4s;
+	color: #e2e2e2;
+}
+#login-form-holder, #panel-content{
+	display: none;
+}
+
+.login-form, .panel-content.transition-start{
+	background: #33393d;
+	height: 420px;
+	width: 420px;
+	padding: 0 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-210px) translateX(-210px);
+
+}
+.panel-content{
+	transform: translateY(0) translateX(0);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 260px;
+	padding: 0;
+	position: absolute;
+	background: #33393d;
+}
+/* 
+.panel-content.active{
+	transform: translateY(0) translateX(0);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 260px;
+	padding: 0;
+} */
+
+/* Logo */
+.logo-container{ 
+	width: 100%;
+	height: 32px;
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.holder{ 
+	float: left;
+	height: 32px;
+}
+.logo-holder{ width: 36px; }
+
+.top-text{ 
+	font-size: 20px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 3px;
+
+}
+
+.top-text .left-text{
+	font-weight: 100;
+}
+.top-text .right-text{
+	letter-spacing: 1px;
+	
+}
+.bottom-text { 
+	font-size: 21px; 
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+/* Login errors */
+.error{
+	padding: 0;
+	margin: 0 0 15px;
+	font-size: 15px;
+	visibility: hidden;
+	color: #E2585A;
+	height: 15px;
+	line-height: 15px;
+
+	
+}
+
+/* Form styles */
+.form-holder{
+	margin-top: 80px;
+}
+
+.form-group{
+	margin: 25px 0;
+}
+.form-group.username-group{
+	margin: 10px 0 0;
+}
+
+.login-btn-group{
+	width: 100%;
+	margin: 80px 0 0;
+}
+
+.login-btn{
+	border-radius: 0;
+	border: solid 1px #e2e2e2;
+	background: none;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 40px;
+	height: 40px;
+	color: #e2e2e2;
+	padding: 0;
+	box-shadow: none;
+}
+
+.login-btn:visited{
+	color: #e2e2e2;
+}
+
+.login-form a:hover{
+	color: #e2e2e2;
+	background: none;
+	box-shadow: none;
+	font-weight: 300;
+	border-color: #e3e3e3;
+}
+
+.login-form input {
+	border-radius: 0;
+	background: #33393d;
+	line-height: 16px;
+	font-size: 16px;
+	height: 24px;
+	border: none;
+	padding: 0 0 3px 0;
+	border-top: solid 1px #33393d;
+	border-left: none;
+	border-right: solid 1px #33393d;
+	border-bottom: solid 1px #e2e2e2;
+	color: #e2e2e2;
+	-webkit-box-shadow: none;
+  	box-shadow: none;
+  	font-weight: 300;
+}
+
+
+.login-form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  	color: #7F7F7F;
+}
+.login-form input:focus{
+    outline: 0;
+    border-top: solid 1px #33393d;
+	border-left: none;
+	border-right: solid 1px #33393d;
+    border-bottom: solid 1px #e2e2e2;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+}
+
+.input-group-addon{
+	border-radius: 0;
+	padding: 0 20px 0 5px;
+	background: none;
+	border: none;
+	font-size: 18px;
+	line-height: 18px;
+	height: 18px;
+	
+	/* border-left: solid 1px white;
+	border-top: solid 1px white; */
+	border-top: solid 1px #33393d;
+	border-left: none;
+	border-bottom: solid 1px #e2e2e2;
+	border-right: none;
+	text-transform: lowercase;
+	color: #e2e2e2;
+}
+
+
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+
+#adminModal .modal-content{
+	border-radius: 0;
+   	border-radius: 0;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    background-color: #f2f2f2;
+    overflow: auto;
+}
+
+#adminModal .modal-content p{
+	margin: 10px 0;
+    text-align: center;
+}
+
+
+#adminModal .btn{
+	border-radius: 0;
+	box-shadow: none;
+	text-shadow: none;
+	background-image: none;
+	background: none;
+	margin-right: 2px;
+	background-color: #0f5b8e;
+	color: #f2f2f2;
+	border: none;
+	width: 80px;
+}
+#adminModal.btn:active{
+	background-color: #0f5b8e;
+	color: #f2f2f2;
+	border: none;
+}
+#adminModal .btn-group.open .dropdown-toggle{
+	background-color: #0f5b8e;
+	color: #f2f2f2;
+	border: none;
+	box-shadow: none;
+}
+
+
+#adminModal .modal-send-message-confirmation h3{
+	text-align: center;
+}
+
+#adminModal .modal-send-message-confirmation .confirmation-stats{
+	font-weight: bold;
+	color: #0f5b8e;
+	font-size: 14px;
+}
+
+#adminModal .modal-send-message-confirmation .send-warning{
+	font-weight: 500;
+	font-size: 16px;
+}
+
+
+#adminModal .modal-confirmation-buttons-holder,
+#adminModal .modal-confirmation-message{
+	text-align: center;
+	margin: 20px 0 10px 0; 
+}
+
+#adminModal .cancel-btn{
+	background-color: darkgrey;
+	margin-left: 20px;
+}
+
+#adminModal .confirm-btn{
+	background-color: #8dc74b;
+}
+
+
+#user-management{
+	width: 340px;
+	height: 65px;
+	position: fixed;
+	top: 5px;
+	right: 30px;
+    background-color: #DCD9D9;
+    background-color: #33393d;
+    color: #e2e2e2;
+	display: none;
+	font-family: "Roboto", sans-serif;
+}
+
+#user-management .username-holder{
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#user-management .icon-holder{
+	font-size: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 10px;
+}
+#user-management .name-holder{
+	font-size: 16px;
+	line-height: 30px;
+	float: left;
+	margin-left: 10px;
+	overflow: hidden;
+	height: 30px;
+	width: 280px;
+
+}
+#user-management .actions-holder{
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	margin-left: 50px;
+
+}
+
+#user-management .logout-holder:hover, 
+#user-management .profile-holder:hover{
+	text-decoration: underline;
+	cursor: pointer;
+} 
+#user-management .logout-holder, 
+#user-management .profile-holder{
+	display: inline-block;
+	width: 45px;
+	color: #0f5b8e;
+	color: #8dc74b;
+} 

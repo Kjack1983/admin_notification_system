@@ -1,0 +1,95 @@
+.reports .facet-big{
+	display: inline-block;
+	position: relative;
+	outline: none;
+	margin: 0 20px 0 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	z-index: 10;
+	padding: 5px 10px;
+    font-weight: 400;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.reports .facet-big:hover{
+	background-color: #435a6b;
+	color: #e2e2e2;
+}
+
+.reports .facet-big.active{
+	background-color: #435a6b;
+	color: #e2e2e2;
+}
+.reports .filter-text input{
+	border-radius: 0;
+	/* background: #33393d; */
+	line-height: 16px;
+	font-size: 16px;
+	height: 32px;
+	border: none;
+	padding: 0 0 3px 0;
+	border: solid 1px #33393d;
+	/* color: #e2e2e2;
+	 */-webkit-box-shadow: none;
+	 color: #33393d;
+  	box-shadow: none;
+  	/* font-weight: 300; */
+  	width: 300px;
+  	padding: 0 10px 2px ;
+}
+
+.reports input:focus{
+    outline: 0;
+    -webkit-box-shadow: none;
+  	box-shadow: none;
+}
+
+.reports .filter-list span{
+	display: inline-block;
+	background-color: #e4e4e4;
+	margin: 0 10px 0 0;
+	padding: 3px 8px;
+	background-color: #a4a4a5;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.reports .filter-list span.disabled{ color: #d6d7d8; }
+.reports .filter-items{
+	display: inline-block;
+	margin: 0 10px 0 0;
+
+}
+
+.item-record{
+	width: 190px;
+	height: 90px;
+	border: solid 2px #435a6b;
+	display: inline-block;
+	background-color: #435a6b;
+	margin: 5px 10px 0 0;
+	color: white;
+	font-size: 12;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+
+.item-record p {
+	margin: 5px;
+	padding: 0;
+	font-size: 12px;
+}
+
+.item-record .item-record-title{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.item-record .item-record-message{
+
+}
+.item-record .item-record-date{
+	position: absolute;
+	bottom: 0;
+}

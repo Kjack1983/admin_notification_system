@@ -1,0 +1,509 @@
+.dashboard.messages{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+
+}
+.dashboard.messages .container{
+	padding: 0;
+	margin: 0;
+}
+
+.users-stats .stats span {
+    font-size: 32px;
+	height: 32px;
+	line-height: 32px;
+
+}
+@media only screen and (min-width : 480px) {
+	.dashboard.messages .container {
+	    width: 270px;
+	}
+
+	
+
+	
+}
+
+
+@media only screen and (min-width : 768px) {
+	/* .dashboard.messages .csv-upload .dashboard-items{
+		height: 280px;
+	} */
+
+	.dashboard.messages .container {
+	    width: 520px;
+	}
+	/* .dashboard.messages .user-groups .dashboard-items{
+		height: 180px;
+	} */
+
+	.dashboard.messages .user-groups .dashboard-items p{
+		margin: 0 0 5px 0;
+		font-size: 12px;
+
+	}
+
+	
+}
+@media only screen and (min-width: 992px){
+	/* .dashboard.messages .user-groups .dashboard-items{
+		height: 120px;
+	} */
+
+}
+
+@media only screen and (min-width : 968px) {
+	.dashboard.messages .container {
+	    width: 720px;
+	}
+	
+
+}
+@media only screen and (min-width : 1268px) {
+	.dashboard.messages .container {
+	    width: 920px;
+	}
+	
+}
+
+.dashboard.messages .csv-upload .dashboard-items{
+	overflow: auto;
+}
+.dashboard.messages .user-groups .dashboard-items{
+	/* overflow: auto; */
+}
+
+
+
+
+
+/* Users Stats  */
+
+
+
+.dropdown-menu{
+	border-radius: 0;
+}
+/* Message type */
+
+/* 
+.message-types .dashboard-items, .user-groups .dashboard-items{
+	height: 80px;
+} */
+
+.user-groups .filter-button-container{
+	float: left;
+	font-size: 12px;
+	color: #0f5b8e;
+	background-color: #0f5b8e; 
+}
+.user-groups .filter-button-container i {
+	display: block;
+	font-size: 18px;
+	line-height: 18px;
+	color: #282d30;
+	text-align: center;
+}
+
+
+/* User stats */
+.users-stats .stats{
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+	font-size: 12px;
+	color: #0f5b8e;	
+
+}
+
+.users-stats .stats.activeUsers{
+	width: 130px;
+}
+.users-stats .stats span{
+	display: block;
+	color: #282d30;
+	font-weight: 300;
+	
+}
+
+/* Users search and filtering */
+.messages-filter-holder .user-filter-label{
+	display: block;
+	font-weight: normal;
+	/* text-transform: uppercase; */
+	font-size: 12px;
+	margin: 0;
+	color: #0f5b8e;
+}
+.messages-filter-holder #user-id-filter{
+   outline: none;
+   height: 32px;
+   width: 200px;
+   padding: 0 10px;
+}
+
+.messages-filter-holder #user-id-filter:focus{
+   outline: none;
+}
+
+.dash-row.user-list-holder{
+	margin-left: 10px;
+	min-height: 600px;
+}
+
+.dash-row .user-list-content{
+	min-height: 600px;
+}
+
+.messages-filter-holder .blocking-mask{
+	background-color: gray;
+	position: absolute;
+	top: 0;
+	left: 5px;
+	right: 5px;
+	bottom: 10px;
+	opacity: 0.6;
+	display: none;
+}
+
+.messages-filter-holder .dashboard-items{
+	/* padding: 0; */
+}
+
+.messages-filter-holder .filters-holder{
+	margin: 10px 10px;
+}
+
+
+/* Message input */
+
+.messages-input-holder textarea{
+	width: 100%;
+	height: 80px;
+	resize: none;
+	padding: 10px;
+}
+
+.messages-input-holder input{
+	padding:  0 10px;
+}
+
+.messages-input-holder textarea:focus,
+.messages-input-holder input:focus{
+	outline: 0 !important;
+	
+}
+.messages-input-holder input[type="text"] {
+	width: 100%;
+	height: 40px;
+}
+
+.messages-input-holder .col-sm-6{
+	margin-bottom: 20px;
+	padding: 0 80px 10px 20px;
+}
+
+.messages-input-holder span{
+	text-transform: uppercase;
+}
+.messages-input-holder .title-push,
+.messages-input-holder .title-mobile{
+	margin-bottom: 5px;
+}
+.note-btn-group.btn-group.note-color.open div > li > div:nth-child(1) {display:none;}
+
+
+.messages-input-holder .panel{
+	border-radius: 0;
+	margin-bottom: 5px;
+}
+.messages-input-holder .action-input {
+	margin-bottom: 5px;
+}
+
+.messages-input-holder .mobile.action-input {
+	margin-bottom: 20px;
+}
+
+.note-editable {
+   background-color: transparent !important;
+}
+
+.messages-input-holder .panel .btn{
+	background: #DCD9D9;
+    color: #282d30;
+}
+.messages-input-holder .panel .btn:hover,
+.messages-input-holder .panel .btn:active{
+    background-color: #9C9898;
+	/* color: #DCD9D9; */
+}
+
+.messages-input-holder .panel-heading {
+    background-image: none;
+    background-color: #0f5b8e;
+    background-color: darkgrey;
+    border-radius: 0;
+}
+
+
+
+.user-groups .btn-group,
+.message-types .btn-group{
+	margin: 0 30px 0 0; 
+    padding: 0;
+}
+.messages .dropdown{
+	display: inline-block;
+}
+
+/* Send button */
+.messages .btn.message-btn{
+	background: #8dc74b !important;
+	margin-right: 10px;
+}
+
+.send-button{
+    width: 100%;
+    
+}
+
+.send-button .btn{
+    width: 160px;
+    text-transform: uppercase;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.message-type-button-holder .message-type-button{
+	height: 30px;
+    width: 100px;
+    background: none;
+    border: solid 0px #0f5b8e;
+    margin-right: 20px;
+    color: #0f5b8e;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+
+.message-type-button-holder .message-type-button.active{
+	height: 30px;
+    width: 100px;
+    background: none;
+    border: solid 1px #0f5b8e;
+    margin-right: 20px;
+    color: #0f5b8e;
+}
+.messages-input-holder  .panel-heading.note-toolbar .note-color .dropdown-toggle {
+    width: 24px;
+    padding: auto 5px;
+}
+.messages-input-holder .btn-group.open .dropdown-toggle{
+	background-color: #9C9898;
+}
+
+.messages-input-holder .panel-heading.note-toolbar .note-color .dropdown-menu {
+    min-width: 180px;
+}
+.messages-input-holder .current-language{
+	text-align: center;
+	display: block;
+	font-weight: 500;
+}
+.messages-input-holder .message-input-type{
+	display: block;
+	font-size: 12px;
+}
+
+.notification .alert {
+	padding: 0;
+	margin-bottom: 0;
+	border: 0;
+	border-radius: 0;
+}
+
+.notification .alert {
+	font-size: 14px;
+	font-weight: 300;
+	color: #ffffff;
+	background-color: #0F5B8D;
+}
+
+.notification .alert > div {
+	padding: 14px 8px 16px 4px;
+	display: none;
+}
+
+.notification .alert a {
+	color: #80CCFE;
+}
+
+.notification .close {
+	float: right;
+	font-size: inherit;
+	margin-left: 10px;
+}
+.notification .close:after {
+	display: table;
+	content: ' ';
+}
+
+.notification .close .glyphicon {
+	font-size: 21px;
+}
+
+.notification .alert .debug {
+	color: #333;
+	height: 300px;
+	overflow: auto;
+}
+
+.client-notifications .close {
+    font-weight: 400;
+    font-size: 19px;
+    opacity: 1;
+    text-shadow: none;
+    padding: 1px 6px;
+    color: rgb(149, 149, 149);
+}
+.client-notifications .close:hover{
+   filter: alpha(opacity=80);
+    opacity: .8;
+    text-decoration: none;
+    color: #fff;
+}
+.client-notifications {
+	font-family: 'Roboto', Arial;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.alert-minimalist.client-notifications .logo-container{
+	height: 24px;
+	width: 24px;
+	margin-top: 0;
+	margin-right: 2px;
+	background-repeat: no-repeat;
+    background-position-y: 2px;
+	background-image: url("../../../../../img/projects/em/easymarkets-icon.png");
+	float: left;
+}
+
+/* User list styles */
+.selected-user-list-container{
+	margin-top: 10px;
+}
+.selected-user-list-container .user-id-holder,
+.user-list-holder .user-id-holder{
+	display: inline-block;
+	background-color: darkgrey;
+	padding: 2px 5px;
+	margin: 2px;
+	
+}
+.selected-user-list-container .user-id-value,
+.user-list-holder .user-id-value{
+	margin-right: 5px;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, */
+  
+}
+
+
+
+
+.send-button{
+	margin-top: 10px;
+}
+
+#csv-upload-button,
+#csv-reset-button{
+	height: 30px;
+	border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    background-image: none;
+    background: none;
+    background-color: #0f5b8e;
+    color: white;
+    margin-top: 10px;
+    border-width: 0;
+    border-style: none;
+}
+
+#csv-reset-button{
+	width: 30px;
+}
+#csv-upload-button{
+	width: 120px;
+}
+
+.csv-upload .upload-csv-container{
+	float: left;
+}
+.csv-stat-stub{
+	width: 190px;
+	float: left;
+}
+.csv-upload .upload-csv-stats{
+	/* display: none; */
+	height: 140px;
+	float: left;
+}
+
+.csv-upload .upload-csv-stats p{
+	/* display: none; */
+	margin: 5px 0;
+}
+
+.csv-upload .upload-csv-stats .csv-number{
+	color: #0f5b8e;
+}
+
+.csv-upload .upload-message{
+	display: block;
+	font-size: 12px;
+	margin-top: 5px;
+	display: none;
+}
+
+.csv-reset-container{
+	float: right;
+	width: 10px;
+	height: 20px;
+}
+
+.csv-reset-button{
+	font-size: 14px;
+}
+
+.csv-reset-button i{
+	margin-top: 5px;
+}
+.mobile-action-input .select-container{
+	float: none;
+}
+
+.mobile-action-input label{
+	font-weight: normal;
+}
+
+.mobile-action-param
+.trading-ticket-params{
+	display: none;
+}
+
+#trading-ticket-pair{
+	display: block;
+}
+
+#tt-ticket{
+	width: 170px;
+}
+

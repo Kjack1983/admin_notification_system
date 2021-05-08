@@ -1,0 +1,243 @@
+<div class="dashboard announcements">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6 dashboard-header announcements-header">
+				<h2>Announcements</h2>
+			</div>
+			<div class="col-sm-12 col-md-8  dash-row ">
+				<div class="row">
+					<div class="col-sm-12 col-lg-7 dash-row reminder-to-register">
+						<div class="dashboard-items">
+							<div class="dash-title">Reminder to register</div>
+							<div class="select-container">
+								<p>Reminder interval</p>
+							   	<select class="selectpicker reminder-to-register-interval">
+			   			   		  	<option value="30 days">30 days</option>
+			   			   		  	<option value="15 days">15 days</option>
+			   			   		  	<option value="10 days">10 days</option>
+			   			   		  	<option value="5 days">5 days</option>
+			   			   		  	<option value="4 days">4 days</option>
+			   			   		  	<option value="3 days">3 days</option>
+			   			   		  	<option value="2 days">2 days</option>
+			   			   		  	<option value="1 day">1 day</option>
+			   			   		  	<option value="1 hour">1 hour</option>
+			   			   		  	<option value="3 minutes">3 minutes</option>
+			   			   		  	<option value="1 minute">1 minute</option>
+							   	</select>
+							</div>
+							<div class="select-container ">
+								<p>Reminder time (GMT)</p>
+							   	<select class="selectpicker reminder-to-register-time">
+			   			   		  	<option value="14:00">14:00</option>
+			   			   		  	<option value="15:00">15:00</option>
+			   			   		  	<option value="16:00">16:00</option>
+			   			   		  	<option value="17:00">17:00</option>
+			   			   		  	<option value="18:00">18:00</option>
+			   			   		  	</select>
+							</div>
+							<div class="select-container reminder-toggle">
+								<span class="reminder-toggle-text">OFF/ON</span>
+								<label class="reminder-toggle-switch">
+									<input id="reminderToRegisterActiveToggle" type="checkbox">
+								  	<span class="slider round"></span>
+								</label>
+							</div>
+							<br class="clearBoth" />
+							<div class="message-text-input messages-input-holder">
+								<div id="message-input-tabs" class="container1">
+									<ul  class="nav nav-pills">
+										<li class="active">
+									        <a  href="#reminder-to-register-input-en" data-toggle="tab"> English</a>
+										</li>
+										<li>
+											<a href="#reminder-to-register-input-pl" data-toggle="tab">Polish</a>
+										</li>
+										<li>
+											<a href="#reminder-to-register-input-es" data-toggle="tab">Spanish</a>
+										</li>
+										<li>
+											<a href="#reminder-to-register-input-zh-hans" data-toggle="tab">Chinese</a>
+										</li>
+										<li>
+											<a href="#reminder-to-register-input-ar" data-toggle="tab">Arabic</a>
+										</li>
+									</ul>
+									<div class="tab-content clearfix">
+										
+										<div class="tab-pane active" id="reminder-to-register-input-en">
+											<div class=" message-input-left 	reminder-to-register-en-input" data-language="en">
+						          				<span class="current-language">English</span>
+												<span class="message-input-type">Title</span>
+												<input type="text" id="reminder-to-register-title-en" class="title-push">
+												<span class="message-input-type">Message</span>
+												<textarea id="reminder-to-register-message-en" rows="6"></textarea>
+											</div>
+										</div>
+
+										<div class="tab-pane" id="reminder-to-register-input-pl">
+											<div class=" message-input-left reminder-to-register-pl-input" data-language="pl">
+						          				<span class="current-language">Polish</span>
+												<span class="message-input-type">Title</span>
+												<input type="text" id="reminder-to-register-title-pl" class="title-push">
+												<span class="message-input-type">Message</span>
+												<textarea id="reminder-to-register-message-pl" rows="6"></textarea>
+											</div>
+										</div>
+
+										<div class="tab-pane" id="reminder-to-register-input-es">
+											<div class=" message-input-left reminder-to-register-es-input" data-language="es">
+						          				<span class="current-language">Spanish</span>
+												<span class="message-input-type">Title</span>
+												<input type="text" id="reminder-to-register-title-es" class="title-push">
+												<span class="message-input-type">Message</span>
+												<textarea id="reminder-to-register-message-es" rows="6"></textarea>
+											</div>
+										</div>
+
+
+										<div class="tab-pane" id="reminder-to-register-input-zh-hans">
+											<div class=" message-input-left reminder-to-register-zh-hans-input" data-language="zh-hans">
+						          				<span class="current-language">Chinese</span>
+												<span class="message-input-type">Title</span>
+												<input type="text" id="reminder-to-register-title-zh-hans" class="title-push">
+												<span class="message-input-type">Message</span>
+												<textarea id="reminder-to-register-message-zh-hans" rows="6"></textarea>
+											</div>
+										</div>
+
+										<div class="tab-pane" id="reminder-to-register-input-ar">
+											<div class=" message-input-left reminder-to-register-ar-input" data-language="ar">
+						          				<span class="current-language">Arabic</span>
+												<span class="message-input-type">Title</span>
+												<input type="text" id="reminder-to-register-title-ar" class="title-push">
+												<span class="message-input-type">Message</span>
+												<textarea id="reminder-to-register-message-ar" rows="6"></textarea>
+											</div>
+										</div>
+										
+
+									</div>
+								</div>
+								<div class="reminder-to-register-button-holder">
+									<button class="btn reminder-to-register-save save">Save</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+			<!-- <div class="col-sm-12 col-md-6 dash-row">
+				<div class="row">
+					
+				</div>
+					
+
+<div class="col-sm-12 col-md-6  dash-row reminder-to-register">
+
+						<div class="dashboard-items">
+							<div class="dash-title">Reminder to register</div>
+							<div class="select-container">
+								<p>Reminder interval</p>
+							   	<select class="selectpicker interval">
+			   			   		  	<option>30 days</option>
+			   			   		  	<option>15 days</option>
+			   			   		  	<option>10 days</option>
+			   			   		  	<option>5 days</option>
+			   			   		  	<option>4 days</option>
+			   			   		  	<option>3 days</option>
+			   			   		  	<option>2 days</option>
+			   			   		  	<option>1 hour</option>
+			   			   		  	<option>3 minutes</option>
+			   			   		  	<option>1 minute</option>
+							   	</select>
+							</div>
+							<div class="select-container">
+								<p>Reminder time</p>
+							   	<select class="selectpicker interval">
+			   			   		  	<option>14:00</option>
+			   			   		  	<option>15:00</option>
+			   			   		  	<option>16:00</option>
+			   			   		  	<option>17:00</option>
+			   			   		  	<option>18:00</option>
+			   			   		  	</select>
+							</div>
+							<br class="clearBoth" />
+							<div class="message-text-input messages-input-holder">
+								
+								<div id="message-input-tabs" class="container1">
+									<ul  class="nav nav-pills">
+										<li class="active">
+									        <a  href="#reminder-to-register-input-en" data-toggle="tab"> English</a>
+										</li>
+										<li>
+											<a href="#reminder-to-register-input-pl" data-toggle="tab">Polish</a>
+										</li>
+										<li>
+											<a href="#reminder-to-register-input-es" data-toggle="tab">Spanish</a>
+										</li>
+										<li>
+											<a href="#reminder-to-register-input-zh-hans" data-toggle="tab">Chinese</a>
+										</li>
+										<li>
+											<a href="#reminder-to-register-input-ar" data-toggle="tab">Arabic</a>
+										</li>
+									</ul>
+									<div class="tab-content clearfix">
+									<div class="tab-pane active" id="#reminder-to-register-input-en">
+										<div class="col-sm-4 message-input message-input-left push 	push-en-input" data-language="en">
+					          				<span class="current-language">English</span>
+											<span class="message-input-type">Title</span>
+											<input type="text" id="reminder-to-register-title-en" class="title-push">
+											<span class="message-input-type">Message</span>
+											<textarea id="reminder-to-register-message-en" rows="6"></textarea>
+											
+										</div>
+									</div>
+								</div>
+				</div>
+			</div>
+
+			
+			
+			
+			
+									<div class="col-sm-4 message-input message-input-left push push-en-input" data-language="pl">
+													          				<span class="current-language">Polish</span>
+										<span class="message-input-type">Title</span>
+										<input type="text" id="reminder-to-register-title-pl" class="title-push">
+										<span class="message-input-type">Message</span>
+										<textarea id="reminder-to-register-message-pl" rows="6"></textarea>
+										
+									</div>
+									<div class="col-sm-4 message-input message-input-left push push-en-input" data-language="es">
+													          				<span class="current-language">Spanish</span>
+										<span class="message-input-type">Title</span>
+										<input type="text" id="reminder-to-register-title-es" class="title-push">
+										<span class="message-input-type">Message</span>
+										<textarea id="reminder-to-register-message-es" rows="6"></textarea>
+										
+									</div>
+									<div class="col-sm-4 message-input message-input-left push push-en-input" data-language="ar">
+													          				<span class="current-language">Arabic</span>
+										<span class="message-input-type">Title</span>
+										<input type="text" id="reminder-to-register-title-ar" class="title-push">
+										<span class="message-input-type">Message</span>
+										<textarea id="reminder-to-register-message-ar" rows="6"></textarea>
+									</div>
+									<div class="col-sm-4 message-input message-input-left push push-en-input" data-language="zh-hans">
+													          				<span class="current-language">Chinese</span>
+										<span class="message-input-type">Title</span>
+										<input type="text" id="reminder-to-register-title-zh-hans" class="title-push">
+										<span class="message-input-type">Message</span>
+										<textarea id="reminder-to-register-message-zh-hans" rows="6"></textarea>
+									</div>
+			
+					</div> -->
+					
+
+
